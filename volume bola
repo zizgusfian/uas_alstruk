@@ -1,0 +1,30 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+
+
+int main()
+{
+    float jari;
+    float phi=3.14;
+    float hasil_L,hasil_V;
+    
+    printf("Nama     : Farhan Aziz Gusfian\n");
+    printf("NPM      : 197006067\n");
+    printf("Kelompok : 4\n\n");
+    
+
+    printf("Program Menghitung Volume Bola\n\n");
+    printf("Masukan Jari-jari Bola : ");
+    scanf("%f",&jari);
+    puts("");
+
+    hasil_L=4*phi*(jari*jari);
+    hasil_V=(1.33333)*phi*(jari*jari*jari);
+
+   
+    printf("\nVolume Bola = %.2f",hasil_V);
+    puts("");
+
+    return 0;
+}
